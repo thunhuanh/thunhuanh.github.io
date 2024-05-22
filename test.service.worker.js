@@ -6,9 +6,9 @@
 const CACHE_VERSION = "1716393318|345667888";
 const CACHE_PREFIX = "Platformer 2D-sw-cache-";
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
-const OFFLINE_URL = "test.offline.html";
+const OFFLINE_URL = "index.offline.html";
 // Files that will be cached on load.
-const CACHED_FILES = ["test.html","test.js","test.offline.html","test.icon.png","test.apple-touch-icon.png","test.worker.js","test.audio.worklet.js"];
+const CACHED_FILES = ["index.html","test.js","index.offline.html","test.icon.png","test.apple-touch-icon.png","test.worker.js","test.audio.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 const CACHABLE_FILES = ["test.wasm","test.pck","test.side.wasm"];
 const FULL_CACHE = CACHED_FILES.concat(CACHABLE_FILES);
